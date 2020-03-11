@@ -12,7 +12,7 @@ namespace ProductCatalog.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=VMDB1;Database=POCProductCatalog;integrated security=True;MultipleActiveResultSets=True;");
+            optionsBuilder.UseSqlServer(@"Server=LocalHost;Database=POCProductCatalog;integrated security=True;MultipleActiveResultSets=True;");
 
         }
 
